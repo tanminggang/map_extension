@@ -64,31 +64,31 @@ var extension = {
 		,
 		{"name": "Santa Rosa", "contact": "Ginny Hinton", "extension": "UF/IFAS Extension Santa Rosa County", "address": "6263 Dogwood Drive, Milton, FL 32570", "phone": "(850) 623-3868", "email": "ginnyh@santarosa.fl.gov", "latitude": 30.662751, "longitude": -87.0554494}
 		,
-		{"name": "Sarasota", "contact": "Amber Ward", "extension": "UF/IFAS Extension Sarasota County", "address": "6700 Clark Road, Sarasota, FL 34241", "phone": "(941) 861-9804", "email": "alward@ufl.edu", "latitude": 27.2672574, "longitude": -82.4393364}	
+		{"name": "Sarasota", "contact": "Amber Ward", "extension": "UF/IFAS Extension Sarasota County", "address": "6700 Clark Road, Sarasota, FL 34241", "phone": "(941) 861-9804", "email": "alward@ufl.edu", "latitude": 27.2672574, "longitude": -82.4393364}
 		,
 		{"name": "Suwannee", "contact": "Cathy Rogers", "extension": "UF/IFAS Extension Suwannee County", "address": "1302 11th St. S.W., Live Oak, FL 32064", "phone": "(386) 362-2771", "email": "cjrogers@ufl.edu", "latitude": 30.2911031, "longitude": -83.0058548}
 		,
-		{"name": "Taylor", "contact": "Lori Wiggins", "extension": "UF/IFAS Extension Taylor County", "address": "203 Forest Park Drive, Perry, FL 32348", "phone": "(850) 838-3508", "email": "lwiggins@ufl.edu", "latitude": 30.0797595, "longitude": -83.5676256}	
+		{"name": "Taylor", "contact": "Lori Wiggins", "extension": "UF/IFAS Extension Taylor County", "address": "203 Forest Park Drive, Perry, FL 32348", "phone": "(850) 838-3508", "email": "lwiggins@ufl.edu", "latitude": 30.0797595, "longitude": -83.5676256}
 		,
 		{"name": "Union", "contact": "Samara Deary", "extension": "UF/IFAS Extension Union County", "address": "25 N.E. 1St St., Lake Butler, FL 32054", "phone": "(386) 496-2321", "email": "sdeary@ufl.edu", "latitude": 30.0238759, "longitude": -82.3381309}
 		,
-		{"name": "Volusia", "contact": "Jill Taufer", "extension": "UF/IFAS Extension Volusia County", "address": "3100 E. New York Ave., Deland, FL 32724", "phone": "(386) 822-5778", "email": "jtaufer@ufl.edu", "latitude": 29.016363, "longitude": -81.223067}	
+		{"name": "Volusia", "contact": "Jill Taufer", "extension": "UF/IFAS Extension Volusia County", "address": "3100 E. New York Ave., Deland, FL 32724", "phone": "(386) 822-5778", "email": "jtaufer@ufl.edu", "latitude": 29.016363, "longitude": -81.223067}
 		,
 		{"name": "Wakulla", "contact": "Shelley Swenson", "extension": "UF/IFAS Extension Wakulla County", "address": "84 Cedar Ave., Crawfordville, FL 32327", "phone": "(850) 926-3931", "email": "sswenson@ufl.edu", "latitude": 30.186232, "longitude": -84.3787229}
 		,
-		{"name": "Walton", "contact": "Ricki McWilliams", "extension": "UF/IFAS Extension Walton County", "address": "732 North 9th St., DeFuniak Springs, FL 32433", "phone": "(850) 892-8172", "email": "rickim@ufl.edu", "latitude": 30.7457466, "longitude": -86.114714}			
+		{"name": "Walton", "contact": "Ricki McWilliams", "extension": "UF/IFAS Extension Walton County", "address": "732 North 9th St., DeFuniak Springs, FL 32433", "phone": "(850) 892-8172", "email": "rickim@ufl.edu", "latitude": 30.7457466, "longitude": -86.114714}
 		,
-		{"name": "Escambia", "contact": "", "extension": "UF/IFAS Extension Escambia County", "address": "", "phone": "", "email": "", "latitude": 30.542697, "longitude": -87.299522}			
+		{"name": "Escambia", "contact": "", "extension": "UF/IFAS Extension Escambia County", "address": "", "phone": "", "email": "", "latitude": 30.542697, "longitude": -87.299522}
 		,
-		{"name": "Holmes", "contact": "", "extension": "UF/IFAS Extension Holmes County", "address": "", "phone": "", "email": "", "latitude": 30.788083, "longitude": -85.675795}			
+		{"name": "Holmes", "contact": "", "extension": "UF/IFAS Extension Holmes County", "address": "", "phone": "", "email": "", "latitude": 30.788083, "longitude": -85.675795}
 		,
-		{"name": "Washington", "contact": "", "extension": "UF/IFAS Extension Washington County", "address": "", "phone": "", "email": "", "latitude": 30.778295, "longitude": -85.551696}			
+		{"name": "Washington", "contact": "", "extension": "UF/IFAS Extension Washington County", "address": "", "phone": "", "email": "", "latitude": 30.778295, "longitude": -85.551696}
 		,
-		{"name": "Bay", "contact": "", "extension": "UF/IFAS Extension Bay County", "address": "", "phone": "", "email": "", "latitude": 30.172420, "longitude": -85.623384}			
+		{"name": "Bay", "contact": "", "extension": "UF/IFAS Extension Bay County", "address": "", "phone": "", "email": "", "latitude": 30.172420, "longitude": -85.623384}
 		,
-		{"name": "Jackson", "contact": "", "extension": "UF/IFAS Extension Jackson County", "address": "", "phone": "", "email": "", "latitude": 30.764400, "longitude": -85.255407}			
+		{"name": "Jackson", "contact": "", "extension": "UF/IFAS Extension Jackson County", "address": "", "phone": "", "email": "", "latitude": 30.764400, "longitude": -85.255407}
 		,
-		{"name": "Gadsden", "contact": "", "extension": "UF/IFAS Extension Gadsden County", "address": "", "phone": "", "email": "", "latitude": 30.586076, "longitude": -84.608271}			
+		{"name": "Gadsden", "contact": "", "extension": "UF/IFAS Extension Gadsden County", "address": "", "phone": "", "email": "", "latitude": 30.586076, "longitude": -84.608271}
 		,
 		{"name": "Jefferson", "contact": "", "extension": "UF/IFAS Extension Jefferson County", "address": "", "phone": "", "email": "", "latitude": 30.540101, "longitude": -83.916051}
 		,
@@ -117,5 +117,25 @@ var extension = {
 		{"name": "Hardee", "contact": "", "extension": "UF/IFAS Extension Hardee County", "address": "", "phone": "", "email": "", "latitude": 27.532700, "longitude": -81.834589}
 		,
 		{"name": "Manatee", "contact": "", "extension": "UF/IFAS Extension Manatee County", "address": "", "phone": "", "email": "", "latitude": 27.525932, "longitude": -82.579836}
+		,
+		{"name": "Desoto", "contact": "", "extension": "UF/IFAS Extension Desoto County", "address": "", "phone": "", "email": "", "latitude": 27.224230, "longitude":  -81.838166}
+		,
+		{"name": "Charlotte", "contact": "", "extension": "UF/IFAS Extension Charlotte County", "address": "", "phone": "", "email": "", "latitude": 26.977819, "longitude":  -82.028339}
+		,
+		{"name": "Lee", "contact": "", "extension": "UF/IFAS Extension Lee County", "address": "", "phone": "", "email": "", "latitude": 26.657401, "longitude": -81.842458}
+		,
+		{"name": "Highlands", "contact": "", "extension": "UF/IFAS Extension Highlands County", "address": "", "phone": "", "email": "", "latitude": 27.441885, "longitude": -81.421937}
+		,
+		{"name": "Glades", "contact": "", "extension": "UF/IFAS Extension Glades County", "address": "", "phone": "", "email": "", "latitude": 26.822272, "longitude": -81.082295}
+		,
+		{"name": "Hendry", "contact": "", "extension": "UF/IFAS Extension Hendry County", "address": "", "phone": "", "email": "", "latitude": 26.745553, "longitude": -81.428571}
+		,
+		{"name": "Monroe", "contact": "", "extension": "UF/IFAS Extension Monroe County", "address": "", "phone": "", "email": "", "latitude": 24.550664, "longitude": -81.797288}
+		,
+		{"name": "Indian River", "contact": "", "extension": "UF/IFAS Extension Indian River County", "address": "", "phone": "", "email": "", "latitude": 27.639078, "longitude": -80.394201}
+		,
+		{"name": "Okeechobee", "contact": "", "extension": "UF/IFAS Extension Okeechobee County", "address": "", "phone": "", "email": "", "latitude": 27.243726, "longitude": -80.833828}
+		,
+		{"name": "Palm Beach", "contact": "", "extension": "UF/IFAS Extension Palm Beach County", "address": "", "phone": "", "email": "", "latitude": 26.685123, "longitude": -80.112440}
 	]
 }
