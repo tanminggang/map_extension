@@ -11,7 +11,7 @@ var infoWindows = {};
 function initialize() {
 	// Create the map
 	var mapOptions = {
-		zoom: 7,
+		zoom: 8,
 		center: Center,
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	};
@@ -181,7 +181,7 @@ function initialize() {
 		marker.setMap(map);
 		
 		//infoWindows
-		var String = "<h3>" + dataCounty.name + "</h3><a href='" + dataCounty.site + "'>" + dataCounty.rec + " Research and Education Center</a><br>" + dataCounty.address + "<br><a href='mailto:" + dataCounty.email + "'>" + dataCounty.email + "</a><br>" + dataCounty.phone;
+		var String = "<h3>" + dataCounty.name + "</h3><a href='" + dataCounty.site + "'>" + dataCounty.rec + "</a><br>" + dataCounty.address + "<br><a href='mailto:" + dataCounty.email + "'>" + dataCounty.email + "</a><br>" + dataCounty.phone;
 		var infoWindow = new google.maps.InfoWindow({
 			content:  String,
 			position: new google.maps.LatLng(dataCounty.latitude, dataCounty.longitude)
