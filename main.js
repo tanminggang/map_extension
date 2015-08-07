@@ -206,7 +206,46 @@ function initialize() {
 			//set infoWindow
 			infoWindows[dataCounty.name].open(map, markers[dataCounty.name]);
 		});
-	}		
+	}
+	
+	// Construct markers and infoWindows from REC
+	for (var i = 0; i < fourH.fourH.length; i++) {
+		var dataCounty = fourH.fourH[i];
+		var latLng = new google.maps.LatLng(dataCounty.latitude, dataCounty.longitude);
+		var marker = new google.maps.Marker({
+			position: latLng,
+			icon: "4-h.png"
+		});
+		markers[dataCounty.name] = marker;
+		marker.setMap(map);
+		
+		//infoWindows
+		var String = "<h3><a href='" + dataCounty.site + "'>" + dataCounty.name + "</a></h3>" + dataCounty.description + "<br>" + dataCounty.address + "<br><a href='mailto:" + dataCounty.email + "'>" + dataCounty.email + "</a><br>" + dataCounty.phone;
+		var infoWindow = new google.maps.InfoWindow({
+			content:  String,
+			position: new google.maps.LatLng(dataCounty.latitude, dataCounty.longitude)
+		});
+		infoWindows[dataCounty.name] = infoWindow;
+		
+		//click marker to show infoWindow
+		google.maps.event.addListener(marker, 'click', function(){
+			//hide all infoWindows
+			for (var name in infoWindows) {
+				infoWindows[name].setMap(null);
+			}
+			
+			//find county rec
+			for(var i = 0; i < fourH.fourH.length; i++){
+				if(markers[fourH.fourH[i].name] == this){
+					var dataCounty = fourH.fourH[i];
+					break;
+				}
+			}
+			
+			//set infoWindow
+			infoWindows[dataCounty.name].open(map, markers[dataCounty.name]);
+		});
+	}
 }
 
 //check if these is any infoWindow open
