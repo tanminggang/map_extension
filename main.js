@@ -208,7 +208,7 @@ function initialize() {
 		});
 	}
 	
-	// Construct markers and infoWindows from REC
+	// Construct markers and infoWindows from 4-h
 	for (var i = 0; i < fourH.fourH.length; i++) {
 		var dataCounty = fourH.fourH[i];
 		var latLng = new google.maps.LatLng(dataCounty.latitude, dataCounty.longitude);
@@ -220,7 +220,7 @@ function initialize() {
 		marker.setMap(map);
 		
 		//infoWindows
-		var String = "<h3><a href='" + dataCounty.site + "'>" + dataCounty.name + "</a></h3>" + dataCounty.description + "<br>" + dataCounty.address + "<br><a href='mailto:" + dataCounty.email + "'>" + dataCounty.email + "</a><br>" + dataCounty.phone;
+		var String = "<h3><a href='" + dataCounty.site + "'>Florida 4-H - " + dataCounty.name + "</a></h3><p>" + dataCounty.description + "</p>" + dataCounty.address + "<br><a href='mailto:" + dataCounty.email + "'>" + dataCounty.contact + " (" + dataCounty.email + ")</a><br>" + dataCounty.phone;
 		var infoWindow = new google.maps.InfoWindow({
 			content:  String,
 			position: new google.maps.LatLng(dataCounty.latitude, dataCounty.longitude)
